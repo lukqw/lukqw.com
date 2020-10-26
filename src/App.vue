@@ -1,24 +1,21 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view/>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
+  #app {
+    @font-face {
+      font-family: "Roboto Thin";
+      src: local("Roboto"),
+      url(./fonts/Roboto-Thin.ttf) format("truetype");
+    }
+    color: #ed8605;
+    padding: 32px;
+    height: 100%;
+    background-color: #ffffff;
+  }
 
   a {
     font-weight: bold;
@@ -28,5 +25,12 @@
       color: #42b983;
     }
   }
-}
+  body {
+    height: 100%;
+  }
+
+  html {
+    height: 100%;
+  }
+
 </style>
