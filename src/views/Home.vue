@@ -71,7 +71,6 @@
   background-color: unset;
 }
 
-
 .link-box {
   > * {
     margin-left: 15px;
@@ -127,7 +126,6 @@
 
 @media (min-width: 1200px) {
 }
-
 
 </style>
 
