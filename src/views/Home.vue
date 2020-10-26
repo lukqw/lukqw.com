@@ -16,7 +16,7 @@
             </div>
             <div class="link-box">
               <div class="fa-icon">
-                <a href="https://lukqw.com/oefferl/" class="t-href">
+                <a href="https://oefferl.lukqw.com/" class="t-href">
                   <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
                 </a>
               </div>
@@ -45,7 +45,7 @@
             </div>
             <div class="link-box">
               <div class="fa-icon">
-                <a href="https://lukqw.com/CoSt/" class="t-href">
+                <a href="https://cost.lukqw.com/" class="t-href">
                   <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
                 </a>
               </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="link-box">
               <div class="fa-icon">
-                <a href="https://lukqw.com/waecm/" class="t-href">
+                <a href="https://waecm.lukqw.com/" class="t-href">
                   <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
                 </a>
               </div>
