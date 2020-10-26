@@ -1,7 +1,8 @@
 name: git pull on digital ocean thyme
-on: push
-  branches:
-    - master
+on:
+  push:
+    branches:
+      - master
 jobs:
 
   build:
