@@ -152,7 +152,7 @@
   margin: 10px;
   width: calc(100% - 20px);
   height: calc(100% - 20px);
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   scroll-snap-stop: always;
 }
 
