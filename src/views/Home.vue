@@ -180,8 +180,6 @@
   overflow-y: auto;
   align-self: center;
   scroll-snap-type: y mandatory;
-  scroll-padding: calc(1.25rem + 10px);
-
   > .card-body {
     display: flex;
     flex-wrap: wrap;
