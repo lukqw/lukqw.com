@@ -4,37 +4,106 @@
       lukqw
     </div>
     <b-card class="boxstyle">
-        <b-card title="oefferl" footer-tag="footer">
-          <b-card-text>
-            public transportation monitor displayed on a
-            <font-awesome-icon :icon="['fab', 'raspberry-pi']" size="lg"/>
-          </b-card-text>
-          <template #footer>
-            <font-awesome-icon :icon="['fab', 'vuejs']" size='lg'/>
-            <div class="float-right">
-              <div class="link-box">
-              <a href="https://lukqw.com/oefferl/" class="t-href">
-                <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
-              </a>
-              <a href="https://www.github.com/lukqw/oefferl" class="t-href">
-                <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
-              </a>
+      <b-card title="oefferl" footer-tag="footer">
+        <b-card-text>
+          public transportation monitor displayed on a
+          <font-awesome-icon :icon="['fab', 'raspberry-pi']" size="lg"/>
+        </b-card-text>
+        <template #footer>
+          <div class="footer-box">
+            <div class="fa-icon">
+              <font-awesome-icon :icon="['fab', 'vuejs']" size='lg'/>
+            </div>
+            <div class="link-box">
+              <div class="fa-icon">
+                <a href="https://lukqw.com/oefferl/" class="t-href">
+                  <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
+                </a>
+              </div>
+              <div class="fa-icon">
+                <a href="https://www.github.com/lukqw/oefferl" class="t-href">
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                </a>
               </div>
             </div>
-          </template>
-        </b-card>
-        <b-card>
-
-        </b-card>
-        <b-card>
-
-        </b-card>
-        <b-card>
-
-        </b-card>
+          </div>
+        </template>
+      </b-card>
+      <b-card title="CoSt" footer-tag="footer">
+        <b-card-text>
+          collective studying platform developed for the course "Advanced Software Engineering PR"
+        </b-card-text>
+        <template #footer>
+          <div class="footer-box">
+            <div class="stack-box">
+              <div class="fa-icon">
+                <font-awesome-icon :icon="['fab', 'java']" size='lg'/>
+              </div>
+              <div class="fa-icon">
+                <font-awesome-icon :icon="['fab', 'vuejs']" size='lg'/>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="fa-icon">
+                <a href="https://lukqw.com/CoSt/" class="t-href">
+                  <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
+                </a>
+              </div>
+              <div class="fa-icon">
+                <a href="https://www.github.com/lukqw/CoSt" class="t-href">
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </template>
+      </b-card>
+      <b-card title="waecm" footer-tag="footer">
+        <b-card-text>
+          reddit bot developed for the course "Web Application Engineering and Content Management"
+        </b-card-text>
+        <template #footer>
+          <div class="footer-box">
+            <div class="fa-icon">
+              <font-awesome-icon :icon="['fab', 'react']" size='lg'/>
+            </div>
+            <div class="link-box">
+              <div class="fa-icon">
+                <a href="https://lukqw.com/waecm/" class="t-href">
+                  <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
+                </a>
+              </div>
+              <div class="fa-icon">
+                <a href="https://www.github.com/lukqw/waecm2020ss" class="t-href">
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </template>
+      </b-card>
+      <b-card title="barkr" footer-tag="footer">
+        <b-card-text>
+          iOS app developed for the course "Mobile Software Engineering"
+        </b-card-text>
+        <template #footer>
+          <div class="footer-box">
+            <div class="fa-icon">
+              <font-awesome-icon :icon="['fab', 'swift']" size='lg'/>
+            </div>
+            <div class="link-box">
+              <div class="fa-icon">
+                <a href="https://www.github.com/lukqw/barkr" class="t-href">
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                </a>
+              </div>
+            </div>
+          </div>
+        </template>
+      </b-card>
     </b-card>
     <div class="footer">
-      <a href="https://www.github.com/lukqw" class="t-href">
+      <a href="https://www.github.com/lukqw" class="t-href-orange">
         <font-awesome-icon :icon="['fab', 'github']" size="2x"/>
       </a>
     </div>
@@ -56,7 +125,27 @@
 }
 
 .card-title {
+  color: #e70000;
+}
+
+.card-text {
   color: #ea00eb;
+}
+
+.t-href {
+  color: #0002ec;
+
+  :hover {
+    color: #00018d;
+  }
+}
+
+.t-href-orange {
+  color: #ed8605;
+
+  :hover {
+    color: #ed6a05;
+  }
 }
 
 .card {
@@ -69,29 +158,36 @@
 
 .card-footer {
   background-color: unset;
+  color: #0002ec;
 }
 
-.link-box {
-  > * {
-    margin-left: 15px;
-  }
+.footer-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-icon {
+  margin: 0 10px;
+}
+
+.link-box, .stack-box {
+  display: flex;
 }
 
 .boxstyle {
-  -webkit-box-shadow: 0px 0px 30px 5px rgba(231, 0, 0, 0.5);
-  -moz-box-shadow: 0px 0px 30px 5px rgba(231, 0, 0, 0.5);
-  box-shadow: 0px 0px 30px 5px rgba(231, 0, 0, 0.5);
   width: 100%;
   height: 75%;
   overflow-y: auto;
   align-self: center;
   scroll-snap-type: y mandatory;
   scroll-padding: calc(1.25rem + 10px);
+
   > .card-body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
   }
+
   > .card-body > .card:last-child {
     margin-bottom: calc(1.25rem + 10px);
   }
