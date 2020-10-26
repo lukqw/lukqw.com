@@ -1,6 +1,6 @@
 name: git pull on digital ocean thyme
 on: push
-  branches: master
+  branches: main
 jobs:
 
   build:
