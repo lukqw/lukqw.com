@@ -16,6 +16,12 @@
     height: 100%;
     background-color: #ffffff;
   }
+  .t-href {
+    color: #ed8605;
+    :hover {
+      color: #ed6a05;
+    }
+  }
 
   a {
     font-weight: bold;
