@@ -209,7 +209,7 @@
   }
 }
 
-@media (min-width: 1600px) and (min-height: 1000px) {
+@media (min-width: 1600px) and (min-height: 901px) {
   .boxstyle {
     width: 50% !important;
     height: 50% !important;
