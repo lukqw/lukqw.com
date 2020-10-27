@@ -204,8 +204,15 @@
     height: calc(50% - 20px);
   }
   .boxstyle {
-    width: 50%;
-    height: 50%;
+    height: 75%;
+    width: 75%;
+  }
+}
+
+@media (min-width: 1600px) and (min-height: 1000px) {
+  .boxstyle {
+    width: 50% !important;
+    height: 50% !important;
   }
   .t1 {
     height: 25%;
@@ -213,12 +220,6 @@
   .footer {
     height: 25%;
   }
-}
-
-@media (min-width: 992px) {
-}
-
-@media (min-width: 1200px) {
 }
 
 </style>
