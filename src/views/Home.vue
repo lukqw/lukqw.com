@@ -7,12 +7,12 @@
       <b-card title="oefferl" footer-tag="footer">
         <b-card-text>
           public transportation monitor displayed on a
-          <font-awesome-icon :icon="['fab', 'raspberry-pi']" size="lg"/>
+          <font-awesome-icon :icon="['fab', 'raspberry-pi']" size="lg" :style="{ color: '#b61040' }"/>
         </b-card-text>
         <template #footer>
           <div class="footer-box">
             <div class="fa-icon">
-              <font-awesome-icon :icon="['fab', 'vuejs']" size='lg'/>
+              <font-awesome-icon :icon="['fab', 'vuejs']" size='lg' :style="{ color: '#00c180' }"/>
             </div>
             <div class="link-box">
               <div class="fa-icon">
@@ -22,7 +22,7 @@
               </div>
               <div class="fa-icon">
                 <a href="https://www.github.com/lukqw/oefferl" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
                 </a>
               </div>
             </div>
@@ -37,10 +37,10 @@
           <div class="footer-box">
             <div class="stack-box">
               <div class="fa-icon">
-                <font-awesome-icon :icon="['fab', 'java']" size='lg'/>
+                <font-awesome-icon :icon="['fab', 'java']" size='lg' :style="{ color: '#f8981d' }"/>
               </div>
               <div class="fa-icon">
-                <font-awesome-icon :icon="['fab', 'vuejs']" size='lg'/>
+                <font-awesome-icon :icon="['fab', 'vuejs']" size='lg' :style="{ color: '#00c180' }"/>
               </div>
             </div>
             <div class="link-box">
@@ -51,7 +51,7 @@
               </div>
               <div class="fa-icon">
                 <a href="https://www.github.com/lukqw/CoSt" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
                 </a>
               </div>
             </div>
@@ -65,7 +65,7 @@
         <template #footer>
           <div class="footer-box">
             <div class="fa-icon">
-              <font-awesome-icon :icon="['fab', 'react']" size='lg'/>
+              <font-awesome-icon :icon="['fab', 'react']" size='lg' :style="{ color: '#61dbfb' }"/>
             </div>
             <div class="link-box">
               <div class="fa-icon">
@@ -75,7 +75,7 @@
               </div>
               <div class="fa-icon">
                 <a href="https://www.github.com/lukqw/waecm2020ss" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
                 </a>
               </div>
             </div>
@@ -89,12 +89,12 @@
         <template #footer>
           <div class="footer-box">
             <div class="fa-icon">
-              <font-awesome-icon :icon="['fab', 'swift']" size='lg'/>
+              <font-awesome-icon :icon="['fab', 'swift']" size='lg' :style="{ color: '#ff422a' }"/>
             </div>
             <div class="link-box">
               <div class="fa-icon">
                 <a href="https://www.github.com/lukqw/barkr" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg"/>
+                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
                 </a>
               </div>
             </div>
@@ -125,11 +125,11 @@
 }
 
 .card-title {
-  color: #e70000;
+  color: #ed8605;
 }
 
 .card-text {
-  color: #ea00eb;
+  color: #7d7d7d;
 }
 
 .t-href {
