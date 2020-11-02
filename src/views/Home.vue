@@ -133,10 +133,10 @@
 }
 
 .t-href {
-  color: #0002ec;
+  color: #008eec;
 
   :hover {
-    color: #00018d;
+    color: #0072ec;
   }
 }
 
