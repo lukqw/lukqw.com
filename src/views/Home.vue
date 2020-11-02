@@ -37,7 +37,7 @@
           <div class="footer-box">
             <div class="stack-box">
               <div class="fa-icon">
-                <font-awesome-icon :icon="['fab', 'java']" size='lg' :style="{ color: '#f8981d' }"/>
+                <font-awesome-icon :icon="['fab', 'java']" size='lg' :style="{ color: '#ec2025' }"/>
               </div>
               <div class="fa-icon">
                 <font-awesome-icon :icon="['fab', 'vuejs']" size='lg' :style="{ color: '#00c180' }"/>
