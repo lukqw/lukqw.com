@@ -49,11 +49,6 @@
                   <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
                 </a>
               </div>
-              <div class="fa-icon">
-                <a href="https://www.github.com/lukqw/CoSt" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
-                </a>
-              </div>
             </div>
           </div>
         </template>
@@ -71,11 +66,6 @@
               <div class="fa-icon">
                 <a href="https://waecm.lukqw.com/" class="t-href">
                   <font-awesome-icon :icon="['fas', 'globe']" size="lg"/>
-                </a>
-              </div>
-              <div class="fa-icon">
-                <a href="https://www.github.com/lukqw/waecm2020ss" class="t-href">
-                  <font-awesome-icon :icon="['fab', 'github']" size="lg" :style="{ color: '#24292e' }"/>
                 </a>
               </div>
             </div>
