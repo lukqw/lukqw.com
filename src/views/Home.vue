@@ -59,8 +59,13 @@
         </b-card-text>
         <template #footer>
           <div class="footer-box">
-            <div class="fa-icon">
-              <font-awesome-icon :icon="['fab', 'react']" size='lg' :style="{ color: '#61dbfb' }"/>
+            <div class="stack-box">
+              <div class="fa-icon">
+                <font-awesome-icon :icon="['fab', 'react']" size='lg' :style="{ color: '#61dbfb' }"/>
+              </div>
+              <div class="fa-icon">
+                <font-awesome-icon :icon="['fab', 'node-js']" size='lg' :style="{ color: '#76ad63' }"/>
+              </div>
             </div>
             <div class="link-box">
               <div class="fa-icon">
@@ -170,6 +175,7 @@
   overflow-y: auto;
   align-self: center;
   scroll-snap-type: y mandatory;
+
   > .card-body {
     display: flex;
     flex-wrap: wrap;

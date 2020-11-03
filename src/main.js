@@ -7,12 +7,12 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
-import { faGithub, faRaspberryPi, faVuejs, faJava, faRedditAlien, faSwift, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faRaspberryPi, faVuejs, faJava, faRedditAlien, faSwift, faReact, faNodeJs } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-library.add(faGithub, faRaspberryPi, faVuejs, faJava, faRedditAlien, faSwift, faReact)
+library.add(faGithub, faRaspberryPi, faVuejs, faJava, faRedditAlien, faSwift, faReact, faNodeJs)
 library.add(faGlobe)
 
 Vue.use(BootstrapVue)
