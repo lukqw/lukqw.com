@@ -4,7 +4,7 @@
       lukqw
     </div>
     <b-card class="boxstyle">
-      <carousel :per-page="1" id="carousel" class="w-100 justify-content-between" pagination-active-color="#ed8605">
+      <carousel :per-page="1" id="carousel" class="w-100 justify-content-center" pagination-active-color="#ed8605">
         <slide v-for="project in projects" :key="project.title">
           <project-card :project="project"/>
         </slide>
@@ -20,6 +20,16 @@
     </div>
   </div>
 </template>
+
+<style>
+.VueCarousel-wrapper {
+  min-height: 75% !important;
+  align-self: center !important;
+}
+.VueCarousel-inner {
+  min-height: 100% !important;
+}
+</style>
 
 <style scoped lang="scss">
 
