@@ -5,7 +5,7 @@
     <template #footer>
       <div class="footer-box">
         <div class="stack-box">
-          <div class="fa-icon" v-for="icon in project.langIcons" :key="icon">
+          <div class="fa-icon" v-for="icon in project.langIcons" :key="icon.name">
             <font-awesome-icon :icon="[icon.type, icon.name]" size='lg'/>
           </div>
         </div>
@@ -116,7 +116,7 @@ export default {
     project: {
       title: String,
       description: String,
-      langIcons: [Object],
+      langIcons: [{ type: String, name: String }],
       website: String,
       github: String
     }
