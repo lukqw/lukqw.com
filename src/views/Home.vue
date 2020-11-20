@@ -1,5 +1,5 @@
 <template>
-  <div class="h-100 overflow-hidden d-flex flex-column">
+  <div class="h-100 d-flex flex-column">
     <div class="t1">
       lukqw
     </div>
@@ -112,6 +112,10 @@
   box-sizing: border-box;
 }
 */
+
+.body {
+  overflow-y: hidden;
+}
 
 .t1 {
   font-size: 30px;
